@@ -22,11 +22,11 @@ function App() {
         <div className="App">
             <Header />
             <Switch>
-                <Route exact path="/" component={Home} />
-                <Route exact path="/About" component={About} />
-                <Route exact path="/Portfolio" component={Portfolio} />
-                <Route exact path="/Blog" component={Blog} />
-                <Route exact path="/Blog/:id" component={BlogPost} />
+                <Route exact path={ process.env.PUBLIC_URL + "/" } component={Home} />
+                <Route exact path={ process.env.PUBLIC_URL + "/About" } component={About} />
+                <Route exact path={ process.env.PUBLIC_URL + "/Portfolio" } component={Portfolio} />
+                <Route exact path={ process.env.PUBLIC_URL + "/Blog" } component={Blog} />
+                <Route exact path={ process.env.PUBLIC_URL + "/Blog/:id" } component={BlogPost} />
                 <Redirect to="/" />
             </Switch>
             <Footer />
