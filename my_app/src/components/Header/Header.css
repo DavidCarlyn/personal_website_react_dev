@@ -1,0 +1,15 @@
+.Header {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: rgb(65, 65, 65);
+}
+
+.Header a {
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.Header a:hover {
+    background-color: rgb(80, 80, 80);
+}

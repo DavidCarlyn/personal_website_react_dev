@@ -1,0 +1,22 @@
+.About {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.About .profile-picture {
+    background-color: grey;
+}
+
+.About .profile-picture img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+.About .about-text {
+    background-color: white;
+}
+
+.About .contact-form {
+    background-color: green;
+}

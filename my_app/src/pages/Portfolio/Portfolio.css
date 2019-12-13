@@ -1,0 +1,12 @@
+.Portfolio {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.Portfolio .projects {
+    background-color: red;
+}
+
+.Portfolio .papers {
+    background-color: blue;
+}

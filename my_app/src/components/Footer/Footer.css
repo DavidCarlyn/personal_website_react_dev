@@ -1,0 +1,20 @@
+.Footer {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: rgb(65, 65, 65);
+}
+
+.Footer a {
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.Footer a:hover {
+    background-color: rgb(80, 80, 80);
+}
+
+.Footer a img {
+    height: 100%;
+    width: 5%;
+}
