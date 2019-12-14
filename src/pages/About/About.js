@@ -6,7 +6,9 @@ import ProfilePicture from '../../resources/images/profile_picture.jpg';
 function About() {
     return (
         <div className="About">
-            <div className="profile-picture"><img src={ProfilePicture} /></div>
+            <div className="profile-picture">
+                <img src={ProfilePicture} />
+            </div>
             <div className="about-text">
                 <h1>Mission</h1>
                 <p>To progress the medical field through the use of explainable artificial intelligence </p>

@@ -1,6 +1,5 @@
 .About {
     display: grid;
-    grid-template-columns: auto;
 }
 
 .About .profile-picture {
@@ -8,6 +7,7 @@
 }
 
 .About .profile-picture img {
+    max-width: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 50%;

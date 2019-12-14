@@ -1,11 +1,11 @@
 .Blog {
+    margin: 5px;
     display: grid;
     grid-template-columns: auto auto auto;
+    grid-gap: 5px;
 }
 
-.Blog .post-item {
-    background-color: blue;
-    border: black 1px solid;
-    text-decoration: none;
-    color: white;
+.Blog .link-post {
+    display: grid;
+    grid-template-columns: auto;
 }
