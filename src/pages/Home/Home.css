@@ -1,18 +1,16 @@
 .Home {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 4rem;
+    margin: 4rem;
 }
 
-.Home .featured-project {
-    background-color: red;
+.Home .Tile {
+    border-radius: 1rem;
+    height: 60%;
 }
 
-.Home .featured-paper {
-    background-color: blue;
-}
-
-.Home .recent-blogs {
-    background-color: green;
-    grid-column-start: 1;
-    grid-column-end: 3;
+.Home a {
+    text-decoration: none;
 }

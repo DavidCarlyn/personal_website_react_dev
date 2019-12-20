@@ -2,6 +2,11 @@
     display: grid;
 }
 
+.About p {
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
 .About .profile-picture {
     background-color: grey;
 }
@@ -14,6 +19,7 @@
 }
 
 .About .about-text {
+    padding: 2rem;
     background-color: white;
 }
 

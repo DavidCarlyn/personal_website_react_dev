@@ -1,7 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import './About.css';
 import ProfilePicture from '../../resources/images/profile_picture.jpg';
+import RESUME from '../../resources/documents/DavidCarlynResumeCondensed.pdf';
 
 function About() {
     return (
@@ -10,6 +12,7 @@ function About() {
                 <img src={ProfilePicture} />
             </div>
             <div className="about-text">
+                <button onClick={(event) => { event.preventDefault(); window.open(RESUME); }}>Resume</button>
                 <h1>Mission</h1>
                 <p>To progress the medical field through the use of explainable artificial intelligence </p>
                 <h2>Research Focus</h2>

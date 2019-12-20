@@ -1,11 +1,19 @@
 .Blog {
-    margin: 5px;
+    margin: 1rem;
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-gap: 5px;
+    grid-gap: 1rem;
+}
+
+.Blog a {
+    text-decoration: none;
 }
 
 .Blog .link-post {
     display: grid;
     grid-template-columns: auto;
+}
+
+.Blog .Tile {
+    border-radius: 1rem;
 }
